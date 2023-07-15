@@ -1,9 +1,9 @@
 clean:
-	rm *.o *.hi && find -type f -executable | xargs rm
+	rm **/*.o **/*.hi && find . -type f -executable | xargs rm
 
-build: $(prog).hs
-	ghc $(prog)
+build: $(prog)/$(prog).hs
+	ghc ./$(prog)/$(prog).hs -o ./$(prog)/$(prog).out
 
-run: build $(prog).test
-	./$(prog) < $(prog).test
-	
+run: build $(prog)/$(prog).test
+	./$(prog)/$(prog).out < ./$(prog)/$(prog).test
+
