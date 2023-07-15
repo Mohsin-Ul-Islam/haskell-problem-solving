@@ -1,3 +1,5 @@
+https://www.hackerrank.com/challenges/bon-appetit/problem
+
 .. container:: content-text challenge-text mlB hackdown-container theme-m
 
    .. container:: challenge-body-html
@@ -126,4 +128,3 @@
                  items with Brian. The total cost of the shared items is
                  and, split in half, the cost per person is . Because ,
                  we print ``Bon Appetit`` on a new line.
-
